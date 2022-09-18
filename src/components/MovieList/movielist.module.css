@@ -1,0 +1,79 @@
+.list-container {
+    margin-top: 40px;
+    color: white;
+    padding: 10px;
+}
+
+.list-name {
+    font-size: 14px;
+}
+
+.movies-container {
+    width: 100%;
+    margin-top: 10px;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    gap: 5px;
+    scrollbar-color: dark;
+}
+
+.list-image {
+    margin-top: 10px;
+    width: 60px;
+    transition: transform 0.5s;
+    position: relative;
+}
+
+.list-image:hover {
+    transform: translateY(-10px);
+}
+
+::-webkit-scrollbar {
+    background-color: black;
+    width: 10px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(51, 51, 51);
+    border-radius: 1px;
+}
+
+.movie-detail-container {
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.movie-info {
+    width: 100%;
+}
+
+.movie-info-title {
+    margin-bottom: 10px;
+}
+
+.movie-info-release-date {
+    margin-top: 10px;
+}
+.movie-info-vote {
+    margin-top: 10px;
+}
+.movie-info-overview {
+    margin-top: 10px;
+    font-size: 9px;
+    font-style: italic;
+}
+
+.movie-video {
+    width: 100%;
+    margin-top: 0px;
+    padding-left: 20px;
+}
+
+.movie-video-bg {
+    width: 100%;
+}

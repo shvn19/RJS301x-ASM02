@@ -1,0 +1,36 @@
+.banner-container {
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.film-title {
+    margin-top: 50px;
+}
+
+.button-group-banner {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    gap: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.button-group-banner>button {
+    width: 60px;
+    height: 20px;
+    border-radius: 0px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+
+.film-overview {
+    margin-top: 10px;
+    font-size: 10px;
+}

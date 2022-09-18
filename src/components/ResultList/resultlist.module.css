@@ -1,0 +1,22 @@
+.result-list-container {
+
+}
+
+.list-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 1040px;
+    margin: auto;
+}
+
+.movie-image {
+    width: 200px;
+    transition: transform 0.5s;
+}
+
+.movie-image:hover {
+    transform: translateY(-10px);
+}
